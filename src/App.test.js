@@ -1,6 +1,5 @@
 import React from 'react'
 import { getAllByRole, findByText, render, screen, fireEvent} from '@testing-library/react'
-import '@testing-library/jest-dom/extend-expect'
 import { unmountComponentAtNode } from "react-dom"
 import App from './App'
 import {savedData} from './data/data'
